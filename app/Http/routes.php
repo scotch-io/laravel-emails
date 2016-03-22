@@ -16,6 +16,7 @@ Route::get('/', function () {
 });
 
 Route::post('/send', 'EmailController@send');
+Route::post('/notify', 'EmailController@notify');
 
 /*
 |--------------------------------------------------------------------------

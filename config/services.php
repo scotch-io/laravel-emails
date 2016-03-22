@@ -19,9 +19,6 @@ return [
         'secret' => env('MAILGUN_SECRET'),
     ],
 
-    'mandrill' => [
-        'secret' => env('MANDRIL_KEY'),
-    ],
 
     'ses' => [
         'key' => env('SES_KEY'),
